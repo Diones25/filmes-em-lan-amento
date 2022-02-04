@@ -4,7 +4,7 @@ $(function () {
     };
     $.ajax({
         headers: header,
-        url: 'https://api.themoviedb.org/3/movie/upcoming?api_key=5c00458ad31f79492cdae66271d31da4&language=pt-BR&page=1&region=br',
+        url: 'https://api.themoviedb.org/3/movie/upcoming?api_key=f5a4130ffbf5af6a0dc17e45671898d0&language=pt-BR&page=1&region=br',
         /*api_key=5c00458ad31f79492cdae66271d31da4*/
         type: 'GET',
         dataType: 'json',
